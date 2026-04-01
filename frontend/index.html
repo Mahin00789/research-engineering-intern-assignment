@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimPPL Dashboard — r/Anarchism Narrative Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bg: '#0f1117',
+              surface: '#1a1d2e',
+              surface2: '#232640',
+              border: '#2e3154',
+              accent: '#6366f1',
+              accent2: '#8b5cf6',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body { 
+        background: linear-gradient(135deg, #0f172a, #1e293b, #020617);
+        position: relative;
+        min-height: 100vh;
+        color: #e2e8f0; 
+        font-family: system-ui, sans-serif;
+      }
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+                    radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.03) 0%, transparent 50%);
+        pointer-events: none;
+        z-index: -1;
+      }
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: #1a1d2e; }
+      ::-webkit-scrollbar-thumb { background: #2e3154; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #6366f1; }
+      .ai-glow { box-shadow: 0 0 0 1px rgba(99,102,241,0.3), 0 4px 24px rgba(99,102,241,0.08); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
