@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Anarchism Narrative Analysis Dashboard
 
 **A semantic search + network analysis dashboard for exploring narrative dynamics in online communities**
@@ -347,3 +348,6 @@ For issues or questions:
 **Last Updated:** March 31, 2026  
 **Status:** ✅ Running  
 **Intern Assignment:** SimPPL Research Engineering
+=======
+# research-engineering-intern-assignment
+>>>>>>> 3535a5a0cde32c607f42277c08d1458dcc59868d
