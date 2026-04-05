@@ -60,19 +60,27 @@ Dashboard available at `http://localhost:5173`
 ## Screenshots
 
 ### Semantic Search
+
 ![Semantic Search](frontend/src/assets/Screenshot%20(469).png)
+
 *Find posts by meaning without keyword matching*
 
 ### Network Graph Analysis
+
 ![Network Graph](frontend/src/assets/Screenshot%20(471).png)
+
 *Interactive visualization of author and domain relationships*
 
 ### Topic Clustering
+
 ![Topic Clusters](frontend/src/assets/Screenshot%20(472).png)
+
 *Automatically discovered topic clusters with AI descriptions*
 
 ### Chatbot Interface
+
 ![Chatbot](frontend/src/assets/Screenshot%20(470).png)
+
 *Multi-turn conversational search with semantic grounding*
 
 ## API Endpoints
